@@ -33,13 +33,25 @@ h1, h2, h3, h4, h5, h6 {
   margin-left: 1rem;
   margin-right: 1rem;
 }
-
+h2 {
+  border-top: solid black 1px;
+  padding-top: 1.143em;
+}
 header, footer {
-  background-color: #F7DE1E;
+  background-color: #FF1304;
   text-align: center;
   padding: 1rem;
   border-top: solid black thick;
   border-bottom: solid black thick;
+}
+     
+header p, footer p {
+  margin-top: 0;
+  margin-bottom: .25rem;
+}
+
+footer {
+  font-size: 90%;
 }
 
 main {
@@ -47,20 +59,33 @@ main {
 }
 
 div.flex-wrapper {
-  flex: 4;
+  flex: 6;
   padding-bottom: 1rem;
 }
 
 nav {
   font-size: 85%;
   padding: .5rem;
-  background-color: #4D5BC8;
+  background-color: #0484FF;
   overflow: auto;
   border-right: thick solid #000;
   flex: 1 1 10rem;
   align-items: stretch;
 }
-
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+nav li {
+  float: left;
+  background-color: #1874CC;
+  border: 1px solid #000;
+  margin: 0.5rem;
+  padding: 0.5rem;
+}
+nav a {
+  color: white;
+}
 ul {
   margin-left: 1rem;
   margin-right: 1rem;
@@ -72,11 +97,10 @@ ol {
   padding-left: 1.7rem;
 }
 p {
-  margin-left: 1rem;
-  margin-right: 1rem;
+  margin: 1rem;
 }
 a {
-  color: #B22E2B;
+  color: #730902;
 }
 dt {
   border-top: dashed white thin;
@@ -91,25 +115,14 @@ dt:first-child {
 dd {
   margin-bottom: 0.25em;
 }
-nav ul {
-  margin: 0;
-  padding: 0;
-}
-nav li {
-  float: left;
-  background-color: #4D5BC8;
-  border: 1px solid #000;
-  margin: 0.5rem;
-  padding: 0.5rem;
-}
-nav a {
-  color: white;
-}
 .note {
   float: right;
   width: 45%;
   border: thin solid #000;
-  background-color: #FCF4B2;
+  background-color: #FAFF19;
   padding: .5rem;
-  font-size: small;
+  margin-bottom: 1rem;
+}
+.suggested::before {
+  content:  "Suggested: ";
 }
