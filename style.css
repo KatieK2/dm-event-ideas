@@ -81,10 +81,15 @@ nav li {
   background-color: #1874CC;
   border: 1px solid #000;
   margin: 0.5rem;
-  padding: 0.5rem;
+}
+nav li:hover, nav li:hover a{
+  background-color: #0484FF;
+  color:  black;
 }
 nav a {
   color: white;
+  padding: .5rem;
+  display: block;
 }
 ul {
   margin-left: 1rem;
