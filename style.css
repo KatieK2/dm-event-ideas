@@ -33,10 +33,16 @@ h1, h2, h3, h4, h5, h6 {
   margin-left: 1rem;
   margin-right: 1rem;
 }
+
+h1 {
+  padding: 1rem;
+}
+
 h2 {
   border-top: solid black 1px;
   padding-top: 1.143em;
 }
+
 header, footer {
   background-color: #FF1304;
   text-align: center;
@@ -48,6 +54,15 @@ header, footer {
 header p, footer p {
   margin-top: 0;
   margin-bottom: .25rem;
+}
+
+header {
+  background: url("background.jpg") center no-repeat #FF1304;
+  background-size: cover;
+}
+
+header > * {
+  background-color: rgba(255, 255, 255, .75);
 }
 
 footer {
@@ -66,7 +81,7 @@ div.flex-wrapper {
 nav {
   font-size: 85%;
   padding: .5rem;
-  background-color: #0484FF;
+  background: url("light-wool.png") #0484FF;
   overflow: auto;
   border-right: thick solid #000;
   flex: 1 1 10rem;
