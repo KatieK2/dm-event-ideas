@@ -22,8 +22,6 @@ small, aside { font-size: 0.75em; }
 
 body {
   color: #2C2E2B;
-  /* background-color: #FCF4B2; */
-  /* background-image: url("gplay.png"); */
   font: 16px/1.6em Arial, sans-serif;
 }
 
@@ -97,7 +95,7 @@ nav li {
   border: 1px solid #000;
   margin: 0.5rem;
 }
-nav li:hover, nav li:hover a{
+nav li:hover, nav li:hover a {
   background-color: #0484FF;
   color:  black;
 }
