@@ -95,7 +95,8 @@ nav li {
   border: 1px solid #000;
   margin: 0.5rem;
 }
-nav li:hover, nav li:hover a {
+nav li:hover, nav li:hover a, 
+nav li:focus, nav li:focus a {
   background-color: #0484FF;
   color:  black;
 }
